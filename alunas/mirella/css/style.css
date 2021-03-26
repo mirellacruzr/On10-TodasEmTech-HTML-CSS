@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F5EFED;
+    border-radius: 10rem;
+    font-family: 'Solway', serif;
+}
+
+header, footer {
+    width: 100%;
+    height: 10vh;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header__conteudo {
+    padding: 2vh;
+}
+
+.footer {
+    display: flex;
+    flex: row;
+}  
+
+.box__um {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2vh;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.box__dois {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2vh;
+}
+
+
+.box__octocat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    padding: 2vh;
+    text-align: center;
+    color: #0F0A0A;
+    font-size: small;
+}
+
+.link__laranja {
+    color: #D96C06;
+    text-decoration: solid;
+    font-weight: bold;
+}
+
+.box__sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vh;
+    width: 33%;
+    text-align: justify;
+    color: #0F0A0A;
+    font-size: small;
+}
+
+.box__sobre > p {
+    margin-bottom: 3vh;
+}
+
+.box__fotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 33%;
+}
+
+.mirella__foto {
+    border-radius: 10px;
+}
+
+.box__musicas, .box__series, .box__animes, .box__filmes, .box__livros {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: white;
+    border-radius: 10px;
+    width: 19%;
+    height: 48vh;
+}
+
+.box__categorias {
+    color: #0F0A0A;
+    padding: 2vh;
+    text-align: left;
+}
+
+.box__listas {
+    list-style: none;
+    padding: 2vh;
+    text-align: left;
+    font-size: smaller;
+}
+
+.box__listas > li {
+    margin-bottom: 1vh;
+}
+
+
+.box__redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-items: flex-end;
+}
+
+.box__bolinhas1, .box__bolinhas2, .box__bolinhas3, .box__bolinhas4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #D96C06;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 5vh;
+    padding: 1vh;
+    margin: 1vh;
+}
